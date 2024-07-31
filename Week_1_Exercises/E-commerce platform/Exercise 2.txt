@@ -1,0 +1,24 @@
+1.Explain Big O notation and how it helps in analyzing algorithms.
+Big O Notation
+Big O notation is expressed as a function of the input size. It gives an upper bound on the growth rate of the algorithm's running time or memory usage.
+
+Big O Notation Helps in analyzing algorithms in various ways:
+1.Compare the efficiency of different algorithms
+2.Predict how an algorithm's performance will change as the input size increases
+3.Identify potential bottlenecks in an algorithm.
+
+
+2.Describe the best, average, and worst-case scenarios for search operations.
+Best-Case Scenario: The item is found at the first position in the array O(1) for linear search and O(log n) for binary search.
+Average-Case Scenario: The item is found at a random position in the array O(n/2) for linear search and O(log n) for binary search.
+Worst-Case Scenario: The item is not found in the array O(n) for linear search and O(log n) for binary search.
+
+
+3.Compare the time complexity of linear and binary search algorithms.
+Comparison of time complexity for linear and binary search.
+Linear Search: O(n) in best, average, and worst.
+Binary Search: O(log n) in best, average, and worst.
+
+
+4.Discuss which algorithm is more suitable for your platform and why.
+Binary search is more suitable for the e-commerce platform because it has a faster time complexity (O(log n)) compared to linear search (O(n)).Hence  binary search can reduce the search time.

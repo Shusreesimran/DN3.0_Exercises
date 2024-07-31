@@ -1,0 +1,24 @@
+1.Explain how arrays are represented in memory and their advantages?
+
+Arrays are represented in memory as a contiguous block of memory locations, each holding a single element. The advantages of arrays include:
+
+- Efficient memory usage
+- Fast access to elements using indexing
+- Simple implementation
+
+
+2.Analyze the time complexity of each operation (add, search, traverse, delete):
+
+1.Add operation: O(1) - adding an employee takes constant time, assuming the array is not full.
+2.Search operation: O(n) - searching for an employee by ID takes linear time, where n is the number of employees.
+3.Traverse operation: O(n) - traversing and printing all employees takes linear time, where n is the number of employees.
+4.Delete operation: O(n) - deleting an employee by ID takes linear time, where n is the number of employees.
+
+
+3.Discuss the limitations of arrays and when to use them?
+
+1.Arrays have a fixed capacity and cannot grow dynamically.
+2.Searching and deleting elements in an array can be slow, especially for large datasets.
+3.Arrays cannot be dynamically resized, which can lead to memory issues.
+
+->Arrays are used and suitable for small, fixed datasets where memory efficiency is crucial.

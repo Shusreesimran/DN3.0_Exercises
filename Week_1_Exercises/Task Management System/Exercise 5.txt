@@ -1,0 +1,17 @@
+1.Explain the different types of linked lists (Singly Linked List, Doubly Linked List)?
+- Singly Linked List: Each node only points to the next node in the sequence.
+- Doubly Linked List: Each node points to both the previous and next nodes in the sequence.
+
+
+2.Analyze the time complexity of each operation.
+1.Add operation: O(n) - adding a task takes linear time, where n is the number of tasks.
+2.Search operation: O(n) - searching for a task by ID takes linear time, where n is the number of tasks.
+3.Traverse operation: O(n) - traversing and printing all tasks takes linear time, where n is the number of tasks.
+4.Delete operation: O(n) - deleting a task by ID takes linear time, where n is the number of tasks.
+
+
+3.Discuss the advantages of linked lists over arrays for dynamic data.
+
+1.Dynamic memory allocation: Linked lists can grow or shrink dynamically as nodes are added or removed, whereas arrays have a fixed size.
+2.Efficient insertion and deletion: Linked lists allow for efficient insertion and deletion of nodes at any position in the list, whereas arrays require shifting elements.
+3.Quick insertions and deletions: Linked lists are suitable for applications where frequent insertions and deletions occur, whereas arrays are not.

@@ -1,0 +1,76 @@
+1.Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort)?
+Comparing bubble sort ,Insertion sort, Quick sort, Merge sort:
+1. Bubble Sort
+
+- Works by repeatedly iterating through the list, comparing adjacent elements, and swapping them if they're in the wrong order.
+- Continues until no more swaps are needed, indicating the list is sorted.
+- Time complexity: O(n^2)
+- Space complexity: O(1)
+- Not suitable for large datasets due to its high time complexity.
+
+2. Insertion Sort
+
+- Works by iterating through the list, inserting each element into its proper position in the sorted portion of the list.
+- Starts with the second element and compares it with the first element, then moves to the third element and compares it with the first two elements, and so on.
+- Time complexity: O(n^2)
+- Space complexity: O(1)
+- Suitable for small datasets or nearly sorted data.
+
+3. Quick Sort
+
+- Works by selecting a pivot element, partitioning the list around it, and recursively sorting the sub lists.
+- Pivot element can be chosen in various ways (e.g., first element, last element, middle element).
+- Time complexity: O(n log n) on average, but can be O(n^2) in the worst case if the pivot is chosen poorly.
+- Space complexity: O(log n)
+- Suitable for large datasets due to its average-case efficiency.
+
+4. Merge Sort
+
+- Works by dividing the list into smaller chunks, sorting each chunk, and merging them back together in sorted order.
+- Uses a divide-and-conquer approach to sort the list.
+- Time complexity: O(n log n)
+- Space complexity: O(n)
+- Suitable for large datasets due to its efficiency and stability.
+
+
+
+
+2.Compare the performance (time complexity) of Bubble Sort and Quick Sort?
+Comparison of Bubble Sort and Quick Sort:
+1. Bubble Sort has a time complexity of O(n^2), while Quick Sort has an average time complexity of O(n log n) and a worst-case time complexity of O(n^2).
+2.Hence, Quick Sort is generally faster than Bubble Sort for large datasets.
+
+
+3.Discuss why Quick Sort is generally preferred over Bubble Sort?
+Quick sort is preferred because it has a much faster average-case time complexity, especially for large datasets. And bubble sort can be suitable for small datasets or sorted data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
